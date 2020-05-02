@@ -98,9 +98,9 @@ public class Main {
 	private static void buscaContato() {
 		do {
 			System.out.println("\n## Buscar Contato ##");
-			System.out.println(":1: Buscar por NOME :");
-			System.out.println(":2: Buscar por TELEFONE :");
-			System.out.println(":3: Voltar ao menu :\n");
+			System.out.println("(1) Buscar por NOME :");
+			System.out.println("(2) Buscar por TELEFONE :");
+			System.out.println("(3) Voltar ao menu :\n");
 			
 			int opcao = coletarOpcaoDesejada();
 			if (opcao == 1) {
@@ -153,10 +153,10 @@ public class Main {
 			System.out.println("NOME: " + tmp.getNome().toUpperCase() + "| ENDERECO: " + tmp.getEndereco().toUpperCase() + "| TELEFONE: " + tmp.getTelefone().toUpperCase());
 			System.out.println("================================");
 			System.out.println("\n## Alterar Contato ##");
-			System.out.println(":1: Altera NOME :");
-			System.out.println(":2: Altera TELEFONE :");
-			System.out.println(":3: Altera ENDERECO :\n");
-			System.out.println(":4: Voltar ao menu principal. :\n");
+			System.out.println("(1) Altera NOME :");
+			System.out.println("(2) Altera TELEFONE :");
+			System.out.println("(3) Altera ENDERECO :\n");
+			System.out.println("(4) Voltar ao menu principal. :\n");
 			int opcao = coletarOpcaoDesejada();
 			if (opcao == 1) {
 				System.out.println("Digite o novo NOME: ");
@@ -187,11 +187,11 @@ public class Main {
 	private static void imprimeMenu() {
 		System.out.println("\n::: Agenda :::");
 		System.out.println(":::- Menu -:::");
-		System.out.println(":1: Adicionar novo contato :");
-		System.out.println(":2: Remover novo contato :");
-		System.out.println(":3: Buscar contatos:");
-		System.out.println(":4: Alterar contato :");
-		System.out.println(":0: Sair do programa :");
+		System.out.println("(1) Adicionar novo contato :");
+		System.out.println("(2) Remover novo contato :");
+		System.out.println("(3) Buscar contatos:");
+		System.out.println("(4) Alterar contato :");
+		System.out.println("(0) Sair do programa :");
 	}
 	private static int coletarOpcaoDesejada() {
 		System.out.print("Digite a sua opcao:");
